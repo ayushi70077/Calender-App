@@ -1,0 +1,131 @@
+/* CalendarView.css
+.calendar-view-container {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h3 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.custom-calendar {
+  margin: 0 auto;
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.custom-calendar .react-calendar__tile--active {
+  background-color: #007bff;
+  color: white;
+}
+
+.selected-date-info {
+  margin-top: 20px;
+}
+
+.selected-date-info h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.communications-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.communication-item {
+  background-color: #e9f7fe;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-left: 4px solid #007bff;
+  border-radius: 4px;
+}
+
+.communication-item strong {
+  color: #007bff;
+}
+
+.communication-item p {
+  margin: 5px 0 0;
+  font-size: 14px;
+  color: #555;
+} */
+
+
+
+/* CalendarView.css */
+.calendar-view-container {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 900px; /* Increased width */
+  margin: 0 auto;
+}
+
+h3 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 25px;
+  font-size: 24px; /* Slightly larger font size for header */
+}
+
+.custom-calendar {
+  margin: 0 auto;
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 100%; /* Calendar now stretches to fit the container */
+  max-width: 700px; /* Limit maximum width for better responsiveness */
+}
+
+.custom-calendar .react-calendar__tile--active {
+  background-color: #007bff;
+  color: white;
+}
+
+.selected-date-info {
+  margin-top: 25px;
+  padding: 15px;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.selected-date-info h4 {
+  font-size: 20px; /* Larger font size for clarity */
+  margin-bottom: 15px; /* Increased spacing */
+}
+
+.communications-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.communication-item {
+  background-color: #e9f7fe;
+  padding: 15px; /* Added padding for better spacing */
+  margin-bottom: 15px; /* Increased margin between items */
+  border-left: 5px solid #007bff; /* Slightly thicker border for emphasis */
+  border-radius: 5px;
+}
+
+.communication-item strong {
+  color: #007bff;
+  font-size: 16px; /* Larger font size for important details */
+}
+
+.communication-item p {
+  margin: 10px 0 0; /* Added spacing above the notes */
+  font-size: 14px;
+  color: #555;
+  line-height: 1.5; /* Improved line spacing */
+}
